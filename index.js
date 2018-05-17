@@ -29,10 +29,11 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  var new_array = window.kittens.slice(0, window.kittens.length - 1);
+  const new_array = window.kittens.slice(0, window.kittens.length - 1);
   return new_array;
 }
 
 function removeFirstKitten() {
-  
+  const new_array = window.kittens.slice(1);
+  return new_array;
 }
