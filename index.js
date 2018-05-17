@@ -29,5 +29,6 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  window.kittens = window.kittens.slice()
+  window.kittens = window.kittens.slice(1);
+  return window.kittens;
 }
