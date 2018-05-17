@@ -33,4 +33,6 @@ function removeLastKitten() {
   return new_array;
 }
 
-function 
+function removeFirstKitten() {
+  
+}
